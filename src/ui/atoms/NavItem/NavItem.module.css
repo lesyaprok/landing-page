@@ -1,0 +1,3 @@
+.item {
+  @apply text-base font-semibold text-grey hover:text-lavender transition-colors;
+}

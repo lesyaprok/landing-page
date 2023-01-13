@@ -16,5 +16,28 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '290px',
+          '@screen sm': {
+            maxWidth: '490px',
+          },
+          '@screen md': {
+            maxWidth: '714px',
+          },
+          '@screen lg': {
+            maxWidth: '990px',
+          },
+          '@screen xl': {
+            maxWidth: '1110px',
+          },
+          '@screen 2xl': {
+            maxWidth: '1400px',
+          }
+        },
+      });
+    },
+  ],
 };
