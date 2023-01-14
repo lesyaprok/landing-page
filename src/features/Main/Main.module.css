@@ -1,0 +1,30 @@
+.main {
+  background-image: url("./tablet-main.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.title {
+  @apply mb-1 text-2xl leading-9 md:text-6xl md:leading-normal font-bold text-black;
+}
+
+.subtitle {
+  @apply text-sm md:text-xl font-normal text-grey;
+}
+
+.description {
+  position: relative;
+}
+
+.description::before {
+  position: absolute;
+  content: "";
+  background-color: #7E3AF2;
+  width: 25px;
+  height: 3px;
+}
+
+.description p {
+  @apply max-w-[270px] leading-[21px] md:max-w-md mb-[27px] pt-[23px] text-sm md:mb-11 md:pt-4 lg:mb-[60px] lg:pt-6 md:text-xl font-normal md:leading-normal text-grey;
+}

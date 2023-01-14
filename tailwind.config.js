@@ -8,6 +8,8 @@ module.exports = {
       grey: '#696969',
       'light-grey': '#E5E7EB',
       lavender: '#7E3AF2',
+      'lavender-dark': '#6C2BD9',
+      'lavender-light': '#CABFFD',
       red: '#E02424',
     },
     extend: {
@@ -35,7 +37,7 @@ module.exports = {
           },
           '@screen 2xl': {
             maxWidth: '1400px',
-          }
+          },
         },
       });
     },
