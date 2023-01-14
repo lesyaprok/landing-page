@@ -1,0 +1,7 @@
+.footer {
+  @apply flex items-center h-16 md:h-[81px] bg-white;
+}
+
+.footerText {
+  @apply ml-[15px] md:ml-[85px] font-normal text-sm md:text-[16px] text-grey;
+}
