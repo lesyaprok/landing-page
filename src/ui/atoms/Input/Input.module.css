@@ -1,0 +1,23 @@
+.wrapper {
+  @apply relative max-w-[324px] flex flex-col gap-2;
+}
+
+.title {
+  @apply text-sm md:text-[16px] font-semibold;
+}
+
+.input {
+  @apply w-full right-5 pl-[54px] pr-5 py-[13px] bg-white text-grey text-sm md:text-[16px] border  rounded-2xl outline-none hover:border-lavender transition-all outline-0 outline-lavender disabled:bg-light-grey;
+}
+
+.icon {
+  @apply absolute top-[13px] left-5;
+}
+
+.required {
+  @apply text-red text-sm md:text-[16px] font-semibold;
+}
+
+.error {
+  @apply absolute -bottom-[18px] text-red text-xs md:text-sm;
+}
