@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex flex-col gap-2;
+}
+
+.title {
+  @apply text-sm md:text-[16px] font-semibold;
+}
+
+.textarea {
+  @apply py-[13px] px-5 text-sm text-black font-normal md:text-[16px] border border-light-grey bg-white rounded-2xl w-full min-h-[122px] resize-none hover:border-lavender transition-all outline-0 outline-lavender disabled:bg-light-grey placeholder:text-grey placeholder:font-normal;
+}

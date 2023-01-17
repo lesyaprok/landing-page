@@ -1,0 +1,7 @@
+.header {
+  @apply py-4 border-b border-light-grey;
+}
+
+.content {
+  @apply container mx-auto flex justify-between items-center;
+}

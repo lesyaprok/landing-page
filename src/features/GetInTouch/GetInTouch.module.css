@@ -1,0 +1,31 @@
+.getInTouch {
+  @apply py-16 md:py-[70px];
+}
+
+.wrapper {
+  @apply container mx-auto flex justify-center items-center;
+} 
+
+@media screen and (max-width:767px) {
+  .getInTouch {
+    background: url("./images/bg-mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .getInTouch {
+    background: url("./images/bg-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width:1024px){
+.getInTouch {
+    background: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

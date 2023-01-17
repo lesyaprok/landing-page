@@ -1,0 +1,27 @@
+.title {
+  @apply text-xl font-semibold md:text-2xl md:font-bold mb-7 md:mb-11;
+}
+
+.wrapper {
+  @apply flex flex-col gap-6 md:gap-11;
+}
+
+.itemContainer {
+  @apply flex items-center gap-1 md:gap-4;
+}
+
+.itemLeft {
+  @apply min-w-[120px] md:min-w-[150px] text-sm font-normal md:text-xl;
+}
+
+.itemRight {
+  @apply flex flex-col gap-1 md:gap-2;
+}
+
+.itemTitle {
+  @apply text-sm font-semibold text-black md:text-xl;
+}
+
+.itemSubtitle {
+  @apply text-sm font-normal text-black md:text-xl;
+}

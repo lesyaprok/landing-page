@@ -1,0 +1,7 @@
+.form {
+  @apply mx-auto py-12 px-[21px] md:px-9 lg:px-12 bg-[#fff] flex flex-col gap-9 md:gap-12 rounded-2xl;
+}
+
+.title {
+  @apply text-black font-semibold text-xl leading-[30px] min-w-[260px] lg:font-bold lg:text-[32px];
+}
