@@ -7,14 +7,14 @@ import styles from './About.module.css';
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className={styles.aboutContainer}>
         <h2 className={styles.title}>About me</h2>
         <div className={styles.topWrapper}>
           <img src={aboutImage} alt="" className={styles.aboutImage} />
           <div className={styles.description}>
             <p className={styles.descriptionText}>
-              <span className="font-semibold text-black">Nick Richardson</span>
+              <span className="font-semibold text-black">Nick Richardson </span>
               - specialist in Frontend development. Clear code is my passion.
               Solving issues through negotiations
             </p>

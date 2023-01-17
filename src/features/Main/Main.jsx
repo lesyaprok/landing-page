@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <section className={styles.main}>
       <div className="container mx-auto pt-7 pb-[225px] md:pt-[92px] md:pb-[51px] lg:pt-[162px] lg:pb-[166px]">
-        <div className="mb-9 md:mb-[92px]">
+        <div className="mb-9 lg:mb-[92px]">
           <h1 className={styles.title}>Hey, I’m Nick</h1>
           <h2 className={styles.subtitle}>Frontend developer</h2>
         </div>
@@ -16,7 +16,9 @@ const Main = () => {
             will love and let your business thrive
           </p>
         </div>
-        <ButtonWithIcon />
+        <a href="#get_in_touch">
+          <ButtonWithIcon />
+        </a>
       </div>
     </section>
   );

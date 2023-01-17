@@ -2,6 +2,8 @@ import './App.css';
 import Header from './ui/organisms/Header/Header';
 import Main from './features/Main/Main';
 import About from './features/About/About';
+import GetInTouch from './features/GetInTouch/GetInTouch';
+import Footer from './ui/organisms/Footer/Footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Main />
       <About />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }

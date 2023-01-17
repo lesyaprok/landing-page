@@ -1,10 +1,25 @@
 .main {
-  background-image: url("./tablet-main.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
+  background-position: bottom right;
 }
 
+@media (max-width:639px) {
+  .main {
+    background-image: url("./mob-main.png");
+  }
+}
+
+@media (min-width:640px) {
+  .main {
+    background-image: url("./tablet-main.png");
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    background-image: url("./main.png");
+  }
+}
 .title {
   @apply mb-1 text-2xl leading-9 md:text-6xl md:leading-normal font-bold text-black;
 }
