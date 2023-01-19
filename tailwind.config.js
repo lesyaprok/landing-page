@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -17,14 +19,29 @@ module.exports = {
         montserrat: ['Montserrat'],
       },
     },
+    screens: {
+      xxs: '270px',
+      xs: '300px',
+      xs2: '340px',
+      ...defaultTheme.screens,
+    },
   },
   plugins: [
     function ({ addComponents }) {
       addComponents({
         '.container': {
           maxWidth: '290px',
+          '@screen xxs': {
+            maxWidth: '260px',
+          },
+          '@screen xs': {
+            maxWidth: '290px',
+          },
+          '@screen xs2': {
+            maxWidth: '90%',
+          },
           '@screen sm': {
-            maxWidth: '490px',
+            maxWidth: '600px',
           },
           '@screen md': {
             maxWidth: '714px',
