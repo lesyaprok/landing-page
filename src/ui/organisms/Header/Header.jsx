@@ -10,7 +10,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.content}>
         <Logo />
-        <nav>
+        <nav className="h-8">
           <NavBar navItems={listItems} />
           <BurgerMenu />
         </nav>
