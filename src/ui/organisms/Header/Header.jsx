@@ -10,7 +10,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.content}>
         <Logo />
-        <nav className="h-8">
+        <nav className="h-8 md:h-fit">
           <NavBar navItems={listItems} />
           <BurgerMenu />
         </nav>
