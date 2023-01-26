@@ -19,7 +19,9 @@ const About = () => {
               Solving issues through negotiations
             </p>
             <div className="hidden md:block">
-              <ButtonWithIcon text="Get in touch" />
+              <a href="#get_in_touch">
+                <ButtonWithIcon text="Get in touch" />
+              </a>
             </div>
           </div>
         </div>
@@ -28,7 +30,9 @@ const About = () => {
           <Experience />
         </div>
         <div className="mt-12 md:hidden">
-          <ButtonWithIcon text="Get in touch" />
+          <a href="#get_in_touch">
+            <ButtonWithIcon text="Get in touch" />
+          </a>
         </div>
       </div>
     </section>

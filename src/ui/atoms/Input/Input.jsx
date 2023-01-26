@@ -23,13 +23,11 @@ const Input = ({
       <div className="relative">
         <img src={isError ? errorIcon : img} alt="" className={styles.icon} />
         <input
-          className={`${styles.input} ${
-            isError ? 'border-red' : 'border-light-grey'
-          }`}
+          className={`${styles.input} ${isError ? 'border-red' : 'border-light-grey'
+            }`}
           type={type}
           placeholder={placeholder}
           id={id}
-          required
           onChange={onChange}
           value={value}
         />
