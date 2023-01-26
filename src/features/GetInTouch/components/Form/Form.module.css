@@ -1,7 +1,7 @@
 .form {
-  @apply mx-auto py-12 px-[21px] md:px-9 lg:px-12 bg-[#fff] flex flex-col gap-9 md:gap-12 rounded-2xl;
+  @apply mx-auto py-12 px-4 xs:px-[21px] xs2:px-[6%] sm:px-9 lg:px-12 bg-[#fff] flex flex-col gap-9 md:gap-12 rounded-2xl;
 }
 
 .title {
-  @apply text-black font-semibold text-[16px] xs:text-xl leading-[30px] xs:min-w-[260px] lg:font-bold lg:text-[32px];
+  @apply text-black font-semibold text-[16px] xs:text-xl leading-[30px] xs:min-w-[260px] md:text-[32px] md:leading-[48px] lg:font-bold lg:text-[32px];
 }

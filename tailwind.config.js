@@ -23,6 +23,7 @@ module.exports = {
       xxs: '270px',
       xs: '300px',
       xs2: '340px',
+      nest: '1024px',
       ...defaultTheme.screens,
     },
   },
@@ -48,6 +49,9 @@ module.exports = {
           },
           '@screen lg': {
             maxWidth: '990px',
+          },
+          '@screen nest': {
+            maxWidth: '90%',
           },
           '@screen xl': {
             maxWidth: '1110px',

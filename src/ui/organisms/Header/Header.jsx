@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../atoms/Logo/Logo';
 import BurgerMenu from '../../atoms/BurgerMenu/BurgerMenu';
 import NavBar from '../../molecules/NavBar/NavBar';
-import listItems from './listItems';
+import listItems from './constants';
 import styles from './Header.module.css';
 
 const Header = () => {

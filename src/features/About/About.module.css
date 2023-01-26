@@ -1,21 +1,21 @@
 .aboutContainer {
-  @apply container mx-auto pt-12 pb-[100px] md:pt-20 lg:pt-28;
+  @apply container mx-auto pt-12 pb-[100px] md:pt-20 lg:pt-[100px];
 }
 
 .title {
-  @apply text-xl font-semibold md:text-[32px] md:font-bold;
+  @apply text-xl font-semibold md:text-[32px] md:font-bold leading-[48px];
 }
 
 .topWrapper {
-  @apply flex flex-col md:flex-row md:justify-between items-center;
+  @apply flex flex-col md:gap-11 lg:gap-[158px] md:flex-row items-center;
 }
 
 .aboutImage {
-  @apply my-9 md:my-20 w-[290px] lg:w-[412px];
+  @apply my-9 md:my-20 md:mb-16 w-[290px] lg:w-[412px];
 }
 
 .descriptionText {
-  @apply mb-16 pt-6 text-sm md:text-xl text-grey font-normal;
+  @apply mb-16 pt-6 text-sm md:mb-11 md:text-xl md:leading-[30px] text-grey font-normal;
 }
 
 .description {
@@ -32,5 +32,5 @@
 }
 
 .bottomWrapper {
-  @apply flex flex-col gap-12 md:gap-20 lg:gap-0 lg:flex-row justify-between;
+  @apply flex flex-col gap-12 md:gap-20 lg:gap-[217px] lg:flex-row;
 }

@@ -5,21 +5,26 @@
 
 @media (max-width:499px) {
   .main {
-    background-image: url("./mob-main.png");
+    background-image: url("./images/mob-main.png");
   }
 }
 
 @media (min-width:500px) {
   .main {
-    background-image: url("./tablet-main.png");
+    background-image: url("./images/tablet-main.png");
   }
 }
 
 @media (min-width: 1024px) {
   .main {
-    background-image: url("./main.png");
+    background-image: url("./images/main.png");
   }
 }
+
+.wrapper {
+  @apply container mx-auto pt-7 pb-[225px] md:pt-11 md:pb-[51px] lg:pt-[162px] lg:pb-[166px];
+}
+
 .title {
   @apply mb-1 text-2xl leading-9 sm:text-6xl sm:leading-normal font-bold text-black;
 }
@@ -41,5 +46,5 @@
 }
 
 .description p {
-  @apply max-w-[270px] leading-[21px] md:max-w-md mb-[27px] pt-[23px] text-sm md:mb-11 md:pt-4 lg:mb-[60px] lg:pt-6 sm:text-xl font-normal md:leading-normal text-grey;
+  @apply max-w-[270px] leading-[21px] sm:max-w-md mb-[27px] pt-[23px] text-sm md:mb-11 md:pt-4 lg:mb-[60px] lg:pt-6 sm:text-xl font-normal md:leading-normal text-grey;
 }

@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply text-sm md:text-[16px] font-semibold;
+  @apply text-sm md:text-[16px] lg:leading-6 font-semibold;
 }
 
 .textarea {

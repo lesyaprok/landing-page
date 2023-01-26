@@ -1,5 +1,5 @@
 .title {
-  @apply text-xl font-semibold md:text-2xl md:font-bold mb-7 md:mb-11;
+  @apply text-xl leading-9 font-semibold md:text-2xl md:font-bold mb-7 md:mb-11;
 }
 
 .wrapper {
@@ -19,7 +19,7 @@
 }
 
 .infoTitle {
-  @apply text-sm font-semibold text-black md:text-xl;
+  @apply text-sm font-semibold text-black md:text-xl lg:leading-[30px];
 }
 
 .infoSubtitle {

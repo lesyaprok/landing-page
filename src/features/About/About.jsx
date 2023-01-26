@@ -19,7 +19,7 @@ const About = () => {
               Solving issues through negotiations
             </p>
             <div className="hidden md:block">
-              <ButtonWithIcon />
+              <ButtonWithIcon text="Get in touch" />
             </div>
           </div>
         </div>
@@ -27,8 +27,8 @@ const About = () => {
           <Interests />
           <Experience />
         </div>
-        <div className="mt-[57px] md:hidden">
-          <ButtonWithIcon />
+        <div className="mt-12 md:hidden">
+          <ButtonWithIcon text="Get in touch" />
         </div>
       </div>
     </section>

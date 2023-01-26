@@ -5,7 +5,7 @@ import styles from './Main.module.css';
 const Main = () => {
   return (
     <section className={styles.main}>
-      <div className="container mx-auto pt-7 pb-[225px] md:pt-[92px] md:pb-[51px] lg:pt-[162px] lg:pb-[166px]">
+      <div className={styles.wrapper}>
         <div className="mb-9 lg:mb-[92px]">
           <h1 className={styles.title}>Hey, I’m Nick</h1>
           <h2 className={styles.subtitle}>Frontend developer</h2>
@@ -17,7 +17,7 @@ const Main = () => {
           </p>
         </div>
         <a href="#get_in_touch">
-          <ButtonWithIcon />
+          <ButtonWithIcon text="Get in touch"/>
         </a>
       </div>
     </section>

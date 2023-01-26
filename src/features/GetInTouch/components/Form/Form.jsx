@@ -12,7 +12,7 @@ const Form = () => {
   return (
     <form action="" className={styles.form}>
       <h2 className={styles.title}>Let&apos;s discuss your project</h2>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 md:gap-[50px] lg:gap-9">
         <div className="flex flex-col gap-6 md:gap-6 lg:gap-5 md:flex-row">
           <Input
             id="fullname"
@@ -43,7 +43,7 @@ const Form = () => {
         />
       </div>
       <div>
-        <ButtonWithIcon />
+        <ButtonWithIcon text="Submit"/>
       </div>
     </form>
   );

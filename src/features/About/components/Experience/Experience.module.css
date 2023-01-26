@@ -1,13 +1,13 @@
 .title {
-  @apply text-xl font-semibold md:text-2xl md:font-bold mb-7 md:mb-11;
+  @apply text-xl font-semibold md:text-2xl md:font-bold mb-7 md:mb-11 leading-9;
 }
 
 .wrapper {
-  @apply flex flex-col gap-6 md:gap-11;
+  @apply flex flex-col gap-6;
 }
 
 .itemContainer {
-  @apply flex items-center gap-1 md:gap-4;
+  @apply flex pb-3 md:pb-8 gap-1 md:gap-4 border-b border-light-grey md:last:border-0;
 }
 
 .itemLeft {
@@ -19,9 +19,9 @@
 }
 
 .itemTitle {
-  @apply text-sm font-semibold text-black md:text-xl;
+  @apply text-sm font-semibold text-black md:text-xl md:leading-[30px];
 }
 
 .itemSubtitle {
-  @apply text-sm font-normal text-black md:text-xl;
+  @apply text-sm font-normal text-black md:text-xl md:leading-[30px];
 }
